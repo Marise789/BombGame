@@ -1,15 +1,24 @@
 import React from "react";
 import { Container, Input, InputContainer, TipTitle } from "./styles";
  
-export default function TipInput() {
+export default function TipInput({ started, question, setQuestion }) {
     return (
         <Container>
           <TipTitle>Dica de senha:</TipTitle>
-            <InputContainer>
-              <Input
-                placeholder="Dica para a sua dupla"
-              />
-            </InputContainer>
+         {!started ? (
+             <InputContainer>
+             <Input
+               placeholder="Dica para a sua dupla" 
+               value={question}
+               onChangeText={(value) => {
+                 setQuestion(value);
+               }}
+             />
+           </InputContainer>
+        ) : (
+          <TipText>{question}</TipText>
+        )
+      }
         </Container>
       );
     }
