@@ -1,11 +1,13 @@
 import React from "react";
 import { Container, Logo, SucessImg, Title } from "./styles";
-
 import logoImg from "../../assets/logoDark.png";
 import sucessImg from "../../assets/bomba_cortada_matrix.png";
 import ButtonComponent from "../../components/Buttons";
+import { useNavigation } from "@react-navigation/native";
 
 export default function Disarmed() {
+  const navigation = useNavigation();
+
     function handleNavToStart() {
         navigation.navigate("Start");
     }
