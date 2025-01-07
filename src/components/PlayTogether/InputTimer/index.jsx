@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import bombImg from "../../../assets/bomba.png";
-import { ImageBackground } from 'react-native';
+import { ImageBackground, Keyboard } from 'react-native';
 import { Input, InputContainer, TextTimer, Timer } from './styles';
 
 export default function InputTimer() {

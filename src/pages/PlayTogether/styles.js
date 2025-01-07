@@ -21,7 +21,8 @@ export const Title = styled.Text`
 `;
 export const BombMessage = styled.Text`
   font-size: ${RFValue(20)}px;
-  padding-bottom: ${RFValue(10)}px;
+ margin:${RFValue(30)}px ;
+ margin-bottom:${RFValue(50)}px;
   text-align: center;
   color: #ff0044;
 `;

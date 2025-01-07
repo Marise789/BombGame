@@ -1,24 +1,24 @@
 import React from 'react'
-import { BombMessage, Container, Title } from './styles';
-import { useNavigation } from '@react-navigation/native';
+import { BombMessage, Container, ScrollContainer, Title } from './styles';
 import InputPassword from '../../components/PlayTogether/InputPassword';
-import InputTimer from '../../components/InputTimer';
+import InputTimer from '../../components/PlayTogether/InputTimer';
 import TipInput from '../../components/PlayTogether/TipInput';
-import { ButtonComponent } from '../../components/Button';
+import { ButtonComponent } from '../../components/Buttons';
 import { Alert } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 export default function PlayTogether() {
   const navigation = useNavigation();
     
     function handleStartGame() {
-      Alert.alert("Jogo começou!")
+      Alert.alert("Jogo iniciado!")
     }
     function handleNavToStart() {
         navigation.navigate("Start");
     }
 
   return (
-     <scrollContainer>
+     <ScrollContainer>
     <Container>
      <Title>Bomb Game Dupla</Title>
       <InputTimer />
@@ -28,6 +28,6 @@ export default function PlayTogether() {
       <ButtonComponent buttonText="Iniciar" handlePress={handleStartGame} />
       <ButtonComponent buttonText="Página Inicial" handlePress={handleNavToStart} />
     </Container>
-     </scrollContainer>
+     </ScrollContainer>
 );
 }
