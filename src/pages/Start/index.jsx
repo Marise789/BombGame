@@ -1,20 +1,26 @@
 import React from "react";
 import { Container, Logo, Title, SubTitle, Rules } from "./styles";
+import { useNavigation } from "@react-navigation/native";
 import ButtonComponent from "../../components/Buttons";
-import { Alert } from "react-native";
+
+
 
 export default function Start() {
-  const handleNavToPlayAlone = () => {
-    console.log("Teste de play alone");
+  const navigation = useNavigation();
+
+
+  function handleNavToPlayAlone() {
+    navigation.navigate("PlayAlone");
+}
+
+function handleNavToPlayTogether() {
+    navigation.navigate(" PlayTogether");
   }
 
-  const handleNavToPlayTogether = () => {
-    console.log("Teste de play together");
-  }
-
-  const handleNavToRules = () => {
-    console.log("Teste de rules");
-  }
+ 
+function handleNavToRules() {
+  navigation.navigate("Rules");
+}
 
   return (
     <Container>
