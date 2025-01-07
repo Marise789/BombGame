@@ -2,7 +2,7 @@ import { RFValue } from "react-native-responsive-fontsize";
 import styled from "styled-components";
 
 export const Container = styled.View`
-  margin: ${RFValue(50)}px ${RFValue(30)}px;
+  margin: ${RFValue(30)}px;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;

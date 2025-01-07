@@ -3,7 +3,7 @@ import { BombMessage, Container, ScrollContainer, Title } from './styles';
 import InputPassword from '../../components/PlayTogether/InputPassword';
 import InputTimer from '../../components/PlayTogether/InputTimer';
 import TipInput from '../../components/PlayTogether/TipInput';
-import { ButtonComponent } from '../../components/Buttons';
+import ButtonComponent from '../../components/Buttons';
 import { Alert } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
@@ -14,7 +14,7 @@ export default function PlayTogether() {
       Alert.alert("Jogo iniciado!")
     }
     function handleNavToStart() {
-        navigation.navigate("Start");
+      navigation.navigate("Start");
     }
 
   return (

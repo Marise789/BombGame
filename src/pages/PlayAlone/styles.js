@@ -4,12 +4,12 @@ import { getStatusBarHeight } from "react-native-iphone-x-helper";
 
 export const Container = styled.View`
   flex: 1;
-  padding-top: ${getStatusBarHeight() + RFValue(30)}px;
+  padding-top: ${getStatusBarHeight() + RFValue(10)}px;
   background-color: ${({ theme }) => theme.colors.background};
 `;
 
 export const Title = styled.Text`
-  font-size: ${RFValue(32)}px;
+  font-size: ${RFValue(28)}px;
   font-family: ${({ theme }) => theme.fonts.bold};
   color: ${({ theme }) => theme.colors.white};
   text-align: center;
@@ -35,7 +35,7 @@ export const TipTitle = styled.Text`
 `;
 
 export const TipText = styled.Text`
-  font-size: 14px;
+  font-size: 16px;
 	font-family: ${({ theme }) => theme.fonts.regular};
   color: ${({ theme }) => theme.colors.textLight};
 `;

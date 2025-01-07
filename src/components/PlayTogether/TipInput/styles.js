@@ -13,7 +13,7 @@ export const TipTitle = styled.Text`
 `;
 export const InputContainer = styled.View`
   width: ${RFValue(260)}px;
-  height: ${RFValue(30)}px;
+  height: ${RFValue(40)}px;
   border: ${RFValue(1)}px solid white;
   border-radius: ${RFValue(5)}px;
   justify-content: center;

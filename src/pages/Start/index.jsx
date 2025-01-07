@@ -14,10 +14,9 @@ export default function Start() {
 }
 
 function handleNavToPlayTogether() {
-    navigation.navigate(" PlayTogether");
-  }
+  navigation.navigate("PlayTogether");
 
- 
+}
 function handleNavToRules() {
   navigation.navigate("Rules");
 }
