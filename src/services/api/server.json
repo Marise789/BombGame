@@ -29,6 +29,251 @@
         "id": 6,
         "pergunta": "Quais são os 3 primeiros números de PI?",
         "resp": "314"
+      },
+      {
+        "id": 7,
+        "pergunta": "Quanto é 275 + 162 - 124 + 53 + 39?",
+        "resp": "405"
+      },
+      {
+        "id": 8,
+        "pergunta": "Quanto é 594 + 876 - 789 + 54?",
+        "resp": "735"
+      },
+      {
+        "id": 9,
+        "pergunta": "Quanto é 312 + 648 - 300 + 195?",
+        "resp": "855"
+      },
+      {
+        "id": 10,
+        "pergunta": "Quanto é 187 + 109 + 302?",
+        "resp": "598"
+      },
+      {
+        "id": 11,
+        "pergunta": "Quanto é 534 + 267 - 153 + 111?",
+        "resp": "759"
+      },
+      {
+        "id": 12,
+        "pergunta": "Quanto é 491 + 328 - 251?",
+        "resp": "568"
+      },
+      {
+        "id": 13,
+        "pergunta": "Quanto é 579 + 230 - 143?",
+        "resp": "666"
+      },
+      {
+        "id": 14,
+        "pergunta": "Quanto é 453 + 212 - 103?",
+        "resp": "562"
+      },
+      {
+        "id": 15,
+        "pergunta": "Quanto é 789 + 102 - 156?",
+        "resp": "735"
+      },
+      {
+        "id": 16,
+        "pergunta": "Quanto é 325 + 147 - 90?",
+        "resp": "382"
+      },
+      {
+        "id": 17,
+        "pergunta": "Quanto é 491 + 213 - 153?",
+        "resp": "551"
+      },
+      {
+        "id": 18,
+        "pergunta": "Quanto é 583 + 198 - 91?",
+        "resp": "690"
+      },
+      {
+        "id": 19,
+        "pergunta": "Quanto é 621 + 178 - 132?",
+        "resp": "667"
+      },
+      {
+        "id": 20,
+        "pergunta": "Quanto é 347 + 528 - 187?",
+        "resp": "688"
+      },
+      {
+        "id": 21,
+        "pergunta": "Quanto é 693 + 145 - 208?",
+        "resp": "630"
+      },
+      {
+        "id": 22,
+        "pergunta": "Quanto é 513 + 234 - 185?",
+        "resp": "562"
+      },
+      {
+        "id": 23,
+        "pergunta": "Quanto é 400 + 252 - 116?",
+        "resp": "536"
+      },
+      {
+        "id": 24,
+        "pergunta": "Quanto é 547 + 212 - 189?",
+        "resp": "570"
+      },
+      {
+        "id": 25,
+        "pergunta": "Quanto é 610 + 327 - 184?",
+        "resp": "753"
+      },
+      {
+        "id": 26,
+        "pergunta": "Quanto é 481 + 220 - 142?",
+        "resp": "559"
+      },
+      {
+        "id": 27,
+        "pergunta": "Quanto é 512 + 308 - 229?",
+        "resp": "591"
+      },
+      {
+        "id": 28,
+        "pergunta": "Quanto é 650 + 103 - 225?",
+        "resp": "528"
+      },
+      {
+        "id": 29,
+        "pergunta": "Quanto é 431 + 147 - 102?",
+        "resp": "476"
+      },
+      {
+        "id": 30,
+        "pergunta": "Quanto é 561 + 102 - 233?",
+        "resp": "430"
+      },
+      {
+        "id": 31,
+        "pergunta": "Quanto é 634 + 193 - 210?",
+        "resp": "617"
+      },
+      {
+        "id": 32,
+        "pergunta": "Quanto é 722 + 231 - 431?",
+        "resp": "522"
+      },
+      {
+        "id": 33,
+        "pergunta": "Quanto é 803 + 112 - 329?",
+        "resp": "586"
+      },
+      {
+        "id": 34,
+        "pergunta": "Quanto é 438 + 225 - 129?",
+        "resp": "534"
+      },
+      {
+        "id": 35,
+        "pergunta": "Quanto é 563 + 190 - 183?",
+        "resp": "570"
+      },
+      {
+        "id": 36,
+        "pergunta": "Quanto é 692 + 106 - 158?",
+        "resp": "640"
+      },
+      {
+        "id": 37,
+        "pergunta": "Quanto é 380 + 257 - 168?",
+        "resp": "469"
+      },
+      {
+        "id": 38,
+        "pergunta": "Quanto é 612 + 195 - 387?",
+        "resp": "420"
+      },
+      {
+        "id": 39,
+        "pergunta": "Quanto é 543 + 199 - 142?",
+        "resp": "600"
+      },
+      {
+        "id": 40,
+        "pergunta": "Quanto é 685 + 101 - 214?",
+        "resp": "572"
+      },
+      {
+        "id": 41,
+        "pergunta": "Quanto é 12 * 25 + 150 - 50?",
+        "resp": "400"
+      },
+      {
+        "id": 42,
+        "pergunta": "Quanto é 18 * 15 - 240 + 120?",
+        "resp": "180"
+      },
+      {
+        "id": 43,
+        "pergunta": "Quanto é 35 * 8 + 75 - 50?",
+        "resp": "370"
+      },
+      {
+        "id": 44,
+        "pergunta": "Quanto é 50 * 6 - 200 + 100?",
+        "resp": "400"
+      },
+      {
+        "id": 45,
+        "pergunta": "Quanto é 25 * 12 + 60 - 120?",
+        "resp": "360"
+      },
+      {
+        "id": 46,
+        "pergunta": "Quanto é 15 * 30 - 250 + 120?",
+        "resp": "450"
+      },
+      {
+        "id": 47,
+        "pergunta": "Quanto é 20 * 15 + 30 - 60?",
+        "resp": "330"
+      },
+      {
+        "id": 48,
+        "pergunta": "Quanto é 28 * 9 + 90 - 180?",
+        "resp": "162"
+      },
+      {
+        "id": 49,
+        "pergunta": "Quanto é 13 * 20 + 150 - 100?",
+        "resp": "360"
+      },
+      {
+        "id": 50,
+        "pergunta": "Quanto é 40 * 5 + 80 - 200?",
+        "resp": "80"
+      },
+      {
+        "id": 51,
+        "pergunta": "Quanto é 25 * 16 - 200 + 75?",
+        "resp": "500"
+      },
+      {
+        "id": 52,
+        "pergunta": "Quanto é 36 * 8 + 60 - 240?",
+        "resp": "288"
+      },
+      {
+        "id": 53,
+        "pergunta": "Quanto é 45 * 7 + 100 - 50?",
+        "resp": "385"
+      },
+      {
+        "id": 54,
+        "pergunta": "Quanto é 30 * 11 + 80 - 150?",
+        "resp": "460"
+      },
+      {
+        "id": 55,
+        "pergunta": "Quanto é 60 * 4 + 90 - 150?",
+        "resp": "390"
       }
     ]
   }

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Alert, ImageBackground } from "react-native";
+import { ImageBackground } from "react-native";
 import { Container, TextTimer, Timer, TipContainer, TipText, TipTitle, Title } from "./styles";
 import bombImg from "../../assets/bomba.png";
 import { useNavigation } from "@react-navigation/native";
@@ -7,7 +7,6 @@ import PasswordInput from "../../components/PasswordInput";
 import ButtonComponent from "../../components/Buttons";
 import BombService from "../../services/bombApp";
 import api from "../../services/api/api";
-import questions from "../../services/api/server.json";
 
 
 
@@ -17,8 +16,8 @@ export default function PlayAlone() {
     const [started, setStarted] = useState(false);
     const [pin, setPin] = useState(["", "", ""]);
     const [hours, setHours] = useState("00");
-    const [minutes, setMinutes] = useState("00");
-    const [seconds, setSeconds] = useState("10");
+    const [minutes, setMinutes] = useState("03");
+    const [seconds, setSeconds] = useState("00");
 
     const [question, setQuestion] = useState("");
     const [answer, setAnswer] = useState("");
@@ -44,7 +43,7 @@ function handleGiveUp() {
 }
 
 async function fetchQuestion() {
-    const randomNumber = Math.floor(Math.random() * 6 + 1);
+    const randomNumber = Math.floor(Math.random() * 6 + 1) + 1;
 
     const { data } = await api.get(`questions/${randomNumber}`);
 

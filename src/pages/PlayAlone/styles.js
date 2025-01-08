@@ -20,7 +20,7 @@ export const Timer = styled.View`
 `;
 
 export const TextTimer = styled.Text`
-  font-size: ${RFValue(20)}px;
+  font-size: ${RFValue(16)}px;
   font-family: ${({ theme }) => theme.fonts.bold};
   color: ${({ theme }) => theme.colors.white};
 `;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, FailedImg, Logo, Title } from "./styles";
 import logoImg from "../../assets/logoLightRed.png";
 import failedImg from "../../assets/bomba_explodiu.png";
@@ -12,10 +12,10 @@ export default function Exploded() {
     function handleNavToStart() {
         navigation.navigate("Start");
       }
-    
-      setTimeout(function () {
-        Vibration.vibrate(4 * 1000);
-      }, 500);
+      
+       useEffect(() => {
+        Vibration.vibrate(5000);
+      }, []);
     
       return (
         <Container>
